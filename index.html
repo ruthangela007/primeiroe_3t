@@ -14,12 +14,11 @@
 
 <body>
   <input type="checkbox" id="calcFin">
-
   <div class="calculadora">
-
-    <label for="calcFin">
+   <label for="calcFin">
       <h3>Financeira</h3>
     </label>
+
     <div class="calcF">
 
       <div id="psTotal">
@@ -35,6 +34,26 @@
     </div>
   </div>
 
+  <input type="checkbox" id="calcESG">
+  <div class="calculadoraESG">
+   <label for="calcESG">
+      <h3>Equação<br>Segundo Graus</h3>
+    </label>
+    
+    <div class="calcE">
+
+      <div id="psRaiz">
+        <span id="raiz">x1 e x2</span><br>
+      </div>
+      a: <input id="a" placeholder="a" type="text"><br>
+      b: <input id="b" placeholder="b" type="text"><br>
+      c: <input id="c" placeholder="c" type="text"><br>
+      <button onclick="calcula()">Enviar</button><br>
+      <div class="spmes">
+        <span id="mes">Mês a Mês</span>
+      </div>
+    </div>
+  </div>
   <br><br><br>
 
   Nota 1: <input id="t1" type="text"><br>
